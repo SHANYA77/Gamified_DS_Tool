@@ -7,10 +7,10 @@
 #define MAX 10
 #define MAX_QUESTIONS 500
 
-// ---------------- GLOBAL GAMIFICATION ----------------
+
 int points = 0;
 
-// ---------------- AUTHENTICATION ----------------
+
 typedef struct {
     char username[50];
     char password[50];
@@ -22,7 +22,7 @@ typedef struct {
 
 User currentUser;
 
-// ---------------- FUNCTION PROTOTYPES ----------------
+
 void registerUser();
 int loginUser();
 void saveUserProgress();
@@ -31,7 +31,7 @@ int topicLevelIndex(char topic[]);
 void loadQuestionsFromFile(const char *filename);
 void quizModule(char topic[]);
 
-// ---------------- USER DATA HANDLING ----------------
+
 int loadUserData(const char *username, User *u) {
     FILE *fp = fopen("users.txt", "r");
     if (!fp) return 0;
@@ -146,12 +146,12 @@ void logout() {
     exit(0);
 }
 
-// ---------------- ARRAY MODULE ----------------
+
 int arr[MAX], arrSize = 0;
 void printArray(int highlightPos) {
     for (int i = 0; i < arrSize; i++) {
         if (i == highlightPos)
-            printf("[%d] ", arr[i]);  // Highlight current element
+            printf("[%d] ", arr[i]);
         else
             printf("%d ", arr[i]);
     }
@@ -163,7 +163,7 @@ void arrayModule() {
     do {
         printf("\n[ARRAY MODULE]\n1. Input Elements\n2. Traverse Array\n3. Insert Element\n4. Delete Element\n5. Exit Array Module\nChoice: ");
         scanf("%d", &choice);
-        getchar(); // consume newline
+        getchar(); 
 
         switch(choice) {
             case 1:
@@ -177,12 +177,12 @@ void arrayModule() {
                 printf("Traversing Array: ");
                 for(int i=0;i<arrSize;i++){
                     printf("%d ", arr[i]);
-                    Sleep(200); // animation effect
+                    Sleep(200); 
                 }
                 printf("\n");
                 break;
 
-            case 3: // INSERT
+            case 3:
                 printf("Enter position (0 to %d) to insert: ", arrSize);
                 scanf("%d", &pos);
                 if(pos<0 || pos>arrSize) { printf("Invalid position!\n"); break; }
@@ -202,7 +202,7 @@ void arrayModule() {
                 printArray(-1);
                 break;
 
-            case 4: // DELETE
+            case 4:
                 printf("Enter position (0 to %d) to delete: ", arrSize-1);
                 scanf("%d",&pos);
                 if(pos<0 || pos>=arrSize) { printf("Invalid position!\n"); break; }
@@ -224,7 +224,7 @@ void arrayModule() {
     } while(choice != 5);
 }
 
-// ---------------- STACK MODULE ----------------
+
 int stack[MAX], top=-1;
 
 void showStack() {
@@ -247,7 +247,7 @@ void stackModule() {
     } while(choice!=3);
 }
 
-// ---------------- QUEUE MODULE ----------------
+
 int queue[MAX], front=-1, rear=-1;
 
 void showQueue() {
@@ -270,7 +270,7 @@ void queueModule() {
     } while(choice!=3);
 }
 
-// ---------------- QUIZ MODULE ----------------
+
 typedef struct {
     char topic[20];
     int level;
@@ -331,7 +331,7 @@ void quizModule(char topic[]){
 
     printf("\n[QUIZ MODULE] Topic: %s | Level %d\n", topic, tLevel);
 
-    // Count questions in this level
+
     for(int i=0;i<totalQuestions;i++){
         if(strcmp(quizBank[i].topic,topic)==0 && quizBank[i].level==tLevel)
             levelQuestions++;
@@ -339,7 +339,7 @@ void quizModule(char topic[]){
 
     if(levelQuestions==0){ printf("No questions for this level.\n"); return; }
 
-    // Loop through questions in current level
+  
     for(int i=0;i<totalQuestions;i++){
         if(strcmp(quizBank[i].topic,topic)==0 && quizBank[i].level==tLevel){
             printf("\nQ: %s\n",quizBank[i].question);
@@ -365,7 +365,6 @@ void quizModule(char topic[]){
     saveUserProgress();
 }
 
-// ---------------- MAIN MENU ----------------
 int main(){
     int choice, loggedIn=0;
 
@@ -404,3 +403,4 @@ int main(){
 
     return 0;
 }
+
