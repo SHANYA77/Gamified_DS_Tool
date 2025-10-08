@@ -1,0 +1,405 @@
+topic=array
+level=1
+Q=Which operation is not possible in arrays?
+A=traversal
+B=insertion
+C=deletion
+D=random access
+ANS=c
+---
+topic=array
+level=1
+Q=Indexing in arrays starts from?
+A=0
+B=1
+C=depends
+D=none
+ANS=a
+---
+topic=array
+level=1
+Q=What is the size of an empty array?
+A=0
+B=1
+C=undefined
+D=depends
+ANS=a
+---
+topic=array
+level=1
+Q=Which array stores elements of same type?
+A=homogeneous
+B=heterogeneous
+C=mixed
+D=none
+ANS=a
+---
+topic=array
+level=1
+Q=Array index out of bound means?
+A=invalid index
+B=negative index
+C=zero index
+D=all
+ANS=a
+---
+topic=array
+level=2
+Q=Which array is used for matrix representation?
+A=1d
+B=2d
+C=jagged
+D=none
+ANS=b
+---
+topic=array
+level=2
+Q=What is the time complexity of searching in unsorted array?
+A=o(n)
+B=o(log n)
+C=o(1)
+D=none
+ANS=a
+---
+topic=array
+level=2
+Q=Which traversal is used in binary tree?
+A=inorder
+B=preorder
+C=postorder
+D=all of these
+ANS=d
+---
+topic=array
+level=2
+Q=In array, binary search can be applied only if?
+A=array is sorted
+B=array is large
+C=array is 1d
+D=all
+ANS=a
+---
+topic=array
+level=2
+Q=Dynamic arrays are implemented using?
+A=linked list
+B=stack
+C=heap memory
+D=queue
+ANS=c
+---
+topic=array
+level=3
+Q=Which data structure is non-linear?
+A=array
+B=stack
+C=queue
+D=tree
+ANS=d
+---
+topic=array
+level=3
+Q=Which array allows random access?
+A=linked array
+B=array
+C=stack
+D=queue
+ANS=b
+---
+topic=array
+level=3
+Q=What is the advantage of dynamic arrays?
+A=fixed size
+B=resizable
+C=slower access
+D=none
+ANS=b
+---
+topic=array
+level=3
+Q=Which of these is contiguous memory allocation?
+A=array
+B=linked list
+C=stack
+D=queue
+ANS=a
+---
+topic=array
+level=3
+Q=Which array type is used for sparse matrices?
+A=1d
+B=2d
+C=linked
+D=none
+ANS=c
+---
+topic=stack
+level=1
+Q=Stack follows which principle?
+A=fifo
+B=lifo
+C=filo
+D=none
+ANS=b
+---
+topic=stack
+level=1
+Q=Which operation removes element from stack?
+A=push
+B=pop
+C=peek
+D=insert
+ANS=b
+---
+topic=stack
+level=1
+Q=Top of stack points to?
+A=first element
+B=last element
+C=middle element
+D=none
+ANS=b
+---
+topic=stack
+level=1
+Q=What is stack overflow?
+A=empty stack
+B=full stack
+C=deleted stack
+D=none
+ANS=b
+---
+topic=stack
+level=1
+Q=Stack is used for which of these?
+A=recursion
+B=queue management
+C=array storage
+D=none
+ANS=a
+---
+topic=stack
+level=2
+Q=Which is postfix of (A+B)*(C-D)?
+A=ab+cd-*
+B=abcd+-*
+C=a+b*c-d
+D=none
+ANS=a
+---
+topic=stack
+level=2
+Q=Which is prefix of (A+B)*(C-D)?
+A=*+ab-cd
+B=+ab*cd
+C=ab+cd-*
+D=none
+ANS=a
+---
+topic=stack
+level=2
+Q=Which stack is used for recursion?
+A=call stack
+B=memory stack
+C=linked stack
+D=none
+ANS=a
+---
+topic=stack
+level=2
+Q=Which operation only views top element without removing?
+A=push
+B=pop
+C=peek
+D=none
+ANS=c
+---
+topic=stack
+level=2
+Q=Which of these is linear data structure?
+A=stack
+B=tree
+C=graph
+D=none
+ANS=a
+---
+topic=stack
+level=3
+Q=Which is used in undo operation in text editors?
+A=queue
+B=stack
+C=array
+D=linked list
+ANS=b
+---
+topic=stack
+level=3
+Q=Which stack is implemented using arrays?
+A=static stack
+B=dynamic stack
+C=linked stack
+D=none
+ANS=a
+---
+topic=stack
+level=3
+Q=What is underflow in stack?
+A=empty stack
+B=full stack
+C=deleted stack
+D=none
+ANS=a
+---
+topic=stack
+level=3
+Q=Stack is used in which of these algorithms?
+A=dfs
+B=bfs
+C=binary search
+D=none
+ANS=a
+---
+topic=stack
+level=3
+Q=Stack is used in which memory management?
+A=heap
+B=call stack
+C=queue
+D=none
+ANS=b
+---
+topic=queue
+level=1
+Q=Queue follows which principle?
+A=fifo
+B=lifo
+C=random
+D=none
+ANS=a
+---
+topic=queue
+level=1
+Q=Which operation removes element from queue?
+A=dequeue
+B=enqueue
+C=peek
+D=none
+ANS=a
+---
+topic=queue
+level=1
+Q=Which operation adds element to queue?
+A=enqueue
+B=dequeue
+C=peek
+D=none
+ANS=a
+---
+topic=queue
+level=1
+Q=Which queue is used in CPU scheduling?
+A=circular queue
+B=priority queue
+C=deque
+D=none
+ANS=b
+---
+topic=queue
+level=1
+Q=Which is linear data structure?
+A=queue
+B=tree
+C=graph
+D=none
+ANS=a
+---
+topic=queue
+level=2
+Q=Which queue allows insertion/deletion at both ends?
+A=circular
+B=simple
+C=deque
+D=priority
+ANS=c
+---
+topic=queue
+level=2
+Q=Which queue is used in BFS traversal?
+A=queue
+B=stack
+C=array
+D=none
+ANS=a
+---
+topic=queue
+level=2
+Q=What is circular queue?
+A=queue with circular arrangement
+B=normal queue
+C=deque
+D=none
+ANS=a
+---
+topic=queue
+level=2
+Q=Which is priority queue based on?
+A=priority
+B=fifo
+C=random
+D=none
+ANS=a
+---
+topic=queue
+level=2
+Q=Which queue uses array as underlying structure?
+A=queue
+B=stack
+C=linked list
+D=none
+ANS=a
+---
+topic=queue
+level=3
+Q=Which is used in job scheduling?
+A=queue
+B=stack
+C=array
+D=none
+ANS=a
+---
+topic=queue
+level=3
+Q=Which queue is suitable for real-time processing?
+A=priority queue
+B=circular queue
+C=deque
+D=none
+ANS=a
+---
+topic=queue
+level=3
+Q=What is the advantage of circular queue?
+A=efficient memory usage
+B=faster than normal queue
+C=slower than normal
+D=none
+ANS=a
+---
+topic=queue
+level=3
+Q=Which operation is expensive in circular queue?
+A=enqueue
+B=dequeue
+C=searching middle
+D=none
+ANS=c
+---
+topic=queue
+level=3
+Q=Which queue is used in BFS graph traversal?
+A=queue
+B=stack
+C=array
+D=none
+ANS=a
+---
