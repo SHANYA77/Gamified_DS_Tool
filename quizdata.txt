@@ -403,3 +403,277 @@ C=array
 D=none
 ANS=a
 ---
+topic=linked list
+level=1
+Q=What is the time complexity to insert at the beginning of a singly linked list?
+A=O(1)
+B=O(n)
+C=O(log n)
+D=O(n log n)
+ANS=a
+---
+topic=linked list
+level=1
+Q=Each node in a singly linked list contains?
+A=Data and one pointer to next node
+B=Data and two pointers
+C=Only data
+D=Only pointer
+ANS=a
+---
+topic=linked list
+level=1
+Q=What is the advantage of a doubly linked list?
+A=Stores two data items
+B=Traverse in both directions
+C=Easier to implement
+D=Uses less memory
+ANS=b
+---
+topic=linked list
+level=1
+Q=What is the head in a linked list?
+A=First node
+B=Last node
+C=Middle node
+D=Empty node
+ANS=a
+---
+topic=linked list
+level=1
+Q=Which of these is NOT a linked list operation?
+A=Traversal
+B=Insertion
+C=Sorting
+D=Deletion
+ANS=c
+---
+
+topic=linked list
+level=2
+Q=How to detect a cycle in a linked list efficiently?
+A=Visited nodes array
+B=Floyd’s Cycle-Finding algorithm
+C=Count nodes
+D=Sorting nodes
+ANS=b
+---
+topic=linked list
+level=2
+Q=What does a circular linked list do differently?
+A=Last node points to head
+B=No head node
+C=Nodes have two pointers
+D=No traversal possible
+ANS=a
+---
+topic=linked list
+level=2
+Q=In a doubly linked list, delete operation at end takes?
+A=O(1)
+B=O(n)
+C=O(log n)
+D=O(n log n)
+ANS=a
+---
+topic=linked list
+level=2
+Q=What is the time complexity to search an element in linked list?
+A=O(1)
+B=O(log n)
+C=O(n)
+D=O(n log n)
+ANS=c
+---
+topic=linked list
+level=2
+Q=What structure is required in addition to data to create a node?
+A=Pointer to next node
+B=Index value
+C=Data type
+D=Pointer to previous node only
+ANS=a
+---
+
+topic=linked list
+level=3
+Q=What is the main disadvantage of linked lists compared to arrays?
+A=Size limitation
+B=Non-contiguous memory
+C=Faster access
+D=Static size
+ANS=b
+---
+topic=linked list
+level=3
+Q=What is a dummy/sentinel node used for in linked lists?
+A=Store extra data
+B=Simplify code by avoiding boundary checks
+C=Speed up access
+D=Save memory
+ANS=b
+---
+topic=linked list
+level=3
+Q=Which technique makes linked list traversal faster?
+A=Recursion
+B=Accessing by index
+C=Using pointers efficiently
+D=Using arrays instead
+ANS=c
+---
+topic=linked list
+level=3
+Q=In a linked list, which is the operation with worst time complexity?
+A=Insert at head
+B=Insert at tail when tail pointer is maintained
+C=Search for element
+D=Delete head node
+ANS=c
+---
+topic=linked list
+level=3
+Q=Which linked list variation is best for undo functionality?
+A=Singly linked list
+B=Circular linked list
+C=Doubly linked list
+D=Linear array
+ANS=c
+---
+topic=tree
+level=1
+Q=What is a Binary Search Tree (BST)?
+A=A tree where left < root < right
+B=A tree with only two levels
+C=A tree with no children
+D=A tree with equal children
+ANS=a
+---
+topic=tree
+level=1
+Q=Which traversal of BST gives sorted order?
+A=Preorder
+B=Postorder
+C=Inorder
+D=Level order
+ANS=c
+---
+topic=tree
+level=1
+Q=What is the maximum number of children a node can have in BST?
+A=1
+B=2
+C=3
+D=Unlimited
+ANS=b
+---
+topic=tree
+level=1
+Q=What is the height of an empty tree?
+A=0
+B=1
+C=-1
+D=Undefined
+ANS=c
+---
+topic=tree
+level=1
+Q=Which operation is easiest in BST?
+A=Insertion
+B=Searching
+C=BFS traversal
+D=All the above
+ANS=d
+---
+
+topic=tree
+level=2
+Q=What is the time complexity for search in balanced BST?
+A=O(n)
+B=O(log n)
+C=O(1)
+D=O(n log n)
+ANS=b
+---
+topic=tree
+level=2
+Q=What happens when BST becomes skewed?
+A=Becomes faster
+B=Degrades to linked list
+C=Tree height decreases
+D=Tree height stays same
+ANS=b
+---
+topic=tree
+level=2
+Q=Which data structure is used for iterative inorder traversal?
+A=Stack
+B=Queue
+C=Heap
+D=Array
+ANS=a
+---
+topic=tree
+level=2
+Q=Which traversal is level wise in BST?
+A=Inorder
+B=Preorder
+C=Postorder
+D=Level order
+ANS=d
+---
+topic=tree
+level=2
+Q=What is inorder predecessor of a node in BST?
+A=Maximum value in left subtree
+B=Minimum value in right subtree
+C=Root node
+D=None of these
+ANS=a
+---
+
+topic=tree
+level=3
+Q=What is a self-balancing BST?
+A=BST with balanced height
+B=BST without children
+C=BST with duplicate nodes
+D=None of the above
+ANS=a
+---
+topic=tree
+level=3
+Q=Red-Black tree is an example of which BST type?
+A=Unbalanced BST
+B=Self-balancing BST
+C=Skewed BST
+D=None
+ANS=b
+---
+topic=tree
+level=3
+Q=In AVL tree, what triggers rotations?
+A=Insertion only
+B=Deletion only
+C=Height difference > 1
+D=All nodes visited
+ANS=c
+---
+topic=tree
+level=3
+Q=Which traversal is used to copy BST?
+A=Preorder
+B=Inorder
+C=Postorder
+D=Level order
+ANS=a
+---
+topic=tree
+level=3
+Q=Height of balanced BST with n nodes is approximately?
+A=O(1)
+B=O(n)
+C=O(log n)
+D=O(n log n)
+ANS=c
+---
